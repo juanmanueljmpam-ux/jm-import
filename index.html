@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JM Import</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo-area">
+    <img src="logo.png" alt="JM Import Logo">
+  </div>
+
+  <nav>
+    <a href="#" onclick="filtrar('todos')">Inicio</a>
+    <a href="#" onclick="filtrar('celulares')">Celulares</a>
+    <a href="#" onclick="filtrar('ceramica')">Cerámica</a>
+    <a href="#" onclick="filtrar('consolas')">Consolas</a>
+    <a href="#" onclick="filtrar('ropa')">Ropa</a>
+    <a href="#" onclick="filtrar('muebles')">Muebles</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Bienvenido a JM Import</h1>
+  <p>Todo lo que buscas en un solo lugar</p>
+</section>
+
+<section class="productos" id="productos">
+
+  <div class="card celulares">
+    <img src="https://i.imgur.com/9QO7Z6G.png">
+    <h3>iPhone 13</h3>
+    <p>RD$ 28,000</p>
+    <button onclick="comprar('iPhone 13')">Comprar por WhatsApp</button>
+  </div>
+
+  <div class="card ceramica">
+    <img src="https://i.imgur.com/2nCt3Sb.png">
+    <h3>Cerámica Española</h3>
+    <p>RD$ 900 m²</p>
+    <button onclick="comprar('Cerámica Española')">Comprar por WhatsApp</button>
+  </div>
+
+  <div class="card consolas">
+    <img src="https://i.imgur.com/8bKQX7R.png">
+    <h3>PlayStation 5</h3>
+    <p>RD$ 38,000</p>
+    <button onclick="comprar('PlayStation 5')">Comprar por WhatsApp</button>
+  </div>
+
+</section>
+
+<section id="contacto" class="contacto">
+  <h2>Contacto</h2>
+  <p>Correo: Juanmanuel.jmpam@gmail.com</p>
+  <p>Teléfono: 809-559-7300</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
